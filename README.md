@@ -30,15 +30,15 @@ and Atmospheric Administration’s (NOAA) Office of Climate Observation.
 The WHOTS-17 mooring was deployed on 
 August 6, 2021
  ([WHOTS-17 cruise](http://www.soest.hawaii.edu/whots/wh17_dep.html)) 
-and was recovered on July { (cookiecutter.current_whots_recovery_date|string)[1:2]}},  2022 
+and was recovered on July 25,  2022 
 ([WHOTS-18 cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html)). 
 The cruises were aboard the R/V Oscar Elton Settle. The WHOTS-18 mooring was 
 deployed on July  4, 2022, during the 
 [WHOTS-18 cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html) and was 
-recovered on XXXXX X, 2023. 
+recovered on June 20, 2023. 
 
 This report documents and describes the oceanographic observations made on the 
-WHOTS-17 mooring for nearly one year and ten months and from shipboard measurements
+WHOTS-17 mooring for about 11 months and from shipboard measurements
 during the two cruises when the mooring was deployed and recovered. 
 [Sections II](https://whots-annual-report.readthedocs.io/projects/whots17-data-report/en/latest/2_section.html) 
 and [III](https://whots-annual-report.readthedocs.io/projects/whots17-data-report/en/latest/3_section.html) 
@@ -94,9 +94,7 @@ Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J.
   the WHOTS buoy’s instrumentation and mooring;
 
 - To [Kelsey Maloney](https://www.linkedin.com/in/kelsey-maloney-4a18291a4),
-  [Tully Rohrer](https://hahana.soest.hawaii.edu/hot/staff1.html),
-  [Noah Howins](https://www.soest.hawaii.edu/oceanography/profile/Howins-Noah/),
-  [Ryan Tabata](https://www.linkedin.com/in/ryan-tabata-69215486/), and
+  [Caroline Jackson](https://www.soest.hawaii.edu/oceanography/profile/Jackson-Caroline/),
   [James Harris](https://www.linkedin.com/in/james-harris-661170174/)
   for their technical assistance with the moored and shipboard instrumentation;
 
