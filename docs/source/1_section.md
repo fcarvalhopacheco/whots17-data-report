@@ -2,16 +2,16 @@
 
 In 2003, [Robert Weller](https://www.whoi.edu/profile/rweller/) ([Woods Hole
 Oceanographic Institution [WHOI]](https://www.whoi.edu))
-, [Albert Plueddemann](https://www.whoi.edu/profile/aplueddemann/) 
+, [Albert Plueddemann](https://www.whoi.edu/profile/aplueddemann/)
 ([WHOI](https://www.whoi.edu)), and
 [Roger Lukas](http://www.soest.hawaii.edu/oceanography/faculty/rlukas/)
-([The University of Hawaii [UH]](https://manoa.hawaii.edu)) proposed to establish 
+([The University of Hawaii [UH]](https://manoa.hawaii.edu)) proposed to establish
 a [long-term surface mooring at the Hawaii Ocean Time-series (HOT)](http://www.soest.hawaii.edu/whots/)
 [Station ALOHA (22°45’N, 158°W)](https://hahana.soest.hawaii.edu/stationaloha/)
 to provide sustained, high-quality air-sea fluxes and the associated upper
 ocean response as a coordinated part of the HOT program, and as an element of
 the global array of ocean reference stations supported by the National Oceanic
-and Atmospheric Administration’s (NOAA) Office of Climate Observation. 
+and Atmospheric Administration’s (NOAA) Office of Climate Observation.
 
 With support from the NOAA and the National Science Foundation (NSF), the WHOI
 HOT Site (WHOTS) surface mooring has been maintained at Station ALOHA since
@@ -25,9 +25,9 @@ used to investigate air-sea interaction processes related to climate
 variability
 
 The original mooring system is described in the mooring deployment/recovery
-cruise reports {cite}`Plueddemann2006, Whelan2007, Whelan2008,Whelan2008,Whelan2010,Santiago-Mandujano2019,Hasbrouck2019,Santiago-Mandujano2021,Santiago-Mandujano2022`.
+cruise reports {cite}`Plueddemann2006, Whelan2007, Whelan2008,Whelan2008,Whelan2010,Santiago-Mandujano2019,Hasbrouck2019,Santiago-Mandujano2021,Santiago-Mandujano2022a, Santiago-Mandujano2022b`.
 Briefly, a Surlyn foam surface buoy is equipped with meteorological
-instrumentation, including two complete Air-Sea Interaction Meteorological 
+instrumentation, including two complete Air-Sea Interaction Meteorological
 (ASIMET) systems, measuring air and sea surface temperatures, relative humidity,
 barometric pressure, wind speed and direction, incoming shortwave and longwave
 radiation, and precipitation {cite}`Hosom1995, Colbo2009`. Complete surface
@@ -67,19 +67,18 @@ deployment (June 2012) to measure near-bottom temperature and salinity.
 WHOTS-17 mooring design
 ```
 
-The WHOTS-17 mooring was deployed on 
+The WHOTS-17 mooring was deployed on
 August 26, 2021
- ([WHOTS-17 cruise](http://www.soest.hawaii.edu/whots/wh17_dep.html)) 
-and was recovered on July 25,  2022 
-([WHOTS-18 cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html)). 
-The cruises were aboard the R/V Oscar Elton Settle. The WHOTS-18 mooring was 
-deployed on July  24, 2022, during the 
-[WHOTS-18 cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html) and was 
-recovered on XXXXX XX, 2023. 
-
+([WHOTS-17 cruise](http://www.soest.hawaii.edu/whots/wh17_dep.html))
+and was recovered on July 25, 2022
+([WHOTS-18 cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html)).
+The cruises were aboard the R/V Oscar Elton Settle. The WHOTS-18 mooring was
+deployed on July 24, 2022, during the
+[WHOTS-18 cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html) and was
+recovered on June 19, 2023, during the [WHOTS-19 cruise](http://www.soest.hawaii.edu/whots/wh19_dep.html)
 
 This report documents and describes the oceanographic observations made on the
-WHOTS-17 mooring for nearly one year and ten months and from shipboard
+WHOTS-17 mooring for nearly eleven months and from shipboard
 measurements during the two cruises when the mooring was deployed and
 recovered. Sections
 {ref}`II</2_section.md#description-of-the-WHOTS-17-mooring-cruises>` and
@@ -87,7 +86,7 @@ recovered. Sections
 description of the cruises and the mooring, respectively. Sampling and
 processing procedures of the hydrographic casts, thermosalinograph, and
 shipboard ADCP data collected during these cruises are described in Section
-{ref}`IV</4_section.md#WHOTS-17-17-cruise-shipboard-observations>`. Section
+{ref}`IV</4_section.md#WHOTS-17-18-cruise-shipboard-observations>`. Section
 {ref}`V</5_section.md#moored-instrument-observations>` includes the processing
 procedures for the data collected by the moored instruments:
 {ref}`SeaCATs, MicroCATs</5_section.md#microcat-data-processing-procedures>`,
