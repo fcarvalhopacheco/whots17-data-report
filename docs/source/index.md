@@ -1,14 +1,13 @@
-````{eval-rst}
+```{eval-rst}
 .. only:: html
 
     .. include:: title_html.rst
 
-````
-
+```
 
 # WHOTS 17
 
-```{toctree} 
+```{toctree}
 :maxdepth: 3
 :numbered:
 :caption: Table of Contents
