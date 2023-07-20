@@ -4,7 +4,7 @@
 ---------
 
 .. image:: https://readthedocs.org/projects/whots17-data-report/badge/?version=latest
-   :target: https://whots-annual-report.readthedocs.io/projects/whots17-data-report/en/latest/?badge=latest
+    :target: https://whots17-data-report.readthedocs.io/en/latest/?badge=latest
 
 .. image:: https://zenodo.org/badge/doi/xx.xxxx/zenodo.xxxxxx.svg
    :target: https://doi.org/xx.xxxx/zenodo.xxxxxxx
@@ -90,4 +90,3 @@
 - This is SOEST contribution number xXxXxXxX.
 
 |
-
