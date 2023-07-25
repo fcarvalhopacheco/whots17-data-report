@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17"
 message: "If you use this report, please cite it using the metadata from this file."
-date-released: 2023-08-01
+date-released: 2023-07-20
 authors:
   - given-names: Fernando
     family-names: Carvalho Pacheco
@@ -91,8 +91,8 @@ preferred-citation:
       family-names: Galbraith
       affiliation: Woods Hole Oceanographic Institution - Woods Hole, MA
   start: 1
-  end: xxx
-  pages: xxx
+  end: 107
+  pages: 107
   title: "Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17"
   year: "2023"
   institution:
@@ -102,7 +102,7 @@ preferred-citation:
     country: US
     post-code: 96822
   department: Department of Oceanography
-  date-released: 2023-01-06
+  date-released: 2023-08-01
   number: xxxxxx
   license: CC-BY-4.0
   collection-doi: xx.xxxx/zenodo.xxxxxxx
