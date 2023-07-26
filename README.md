@@ -9,8 +9,7 @@
 
 ## Documentation
 
-[_Hydrographic observations at the Woods Hole Oceanographic Institution Hawaii
-Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17_](http://whots17-data-report.readthedocs.io/)
+[_Hydrographic observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17_](http://whots17-data-report.readthedocs.io/)
 
 ## Abstract
 
@@ -27,15 +26,14 @@ ocean response as a coordinated part of the HOT program, and as an element of
 the global array of ocean reference stations supported by the National Oceanic
 and Atmospheric Administration’s (NOAA) Office of Climate Observation.
 
-The WHOTS-17 mooring was deployed on
-August 6, 2021
-([WHOTS-17 cruise](http://www.soest.hawaii.edu/whots/wh17_dep.html))
-and was recovered on July 25, 2022
-([WHOTS-18 cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html)).
-The cruises were aboard the R/V Oscar Elton Settle. The WHOTS-18 mooring was
-deployed on July 4, 2022, during the
-[WHOTS-18 cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html) and was
-recovered on June 20, 2023.
+The WHOTS-17 mooring was deployed on August 6, 2021 ([WHOTS-17
+cruise](http://www.soest.hawaii.edu/whots/wh17_dep.html)) and was recovered on
+July 25, 2022 ([WHOTS-18
+cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html)). The cruises were
+aboard the R/V Oscar Elton Settle. The WHOTS-18 mooring was deployed on July 4,
+2022, during the [WHOTS-18
+cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html) and was recovered on
+June 20, 2023.
 
 This report documents and describes the oceanographic observations made on the
 WHOTS-17 mooring for about eleven months and from shipboard measurements
