@@ -293,7 +293,7 @@ Another characteristic of the offsets in the conductivity sensors is that their
 development is not always linear in time. Their behavior can be highly variable
 {cite}`Santiago-Mandujano2007`. The corrections applied to each of the
 conductivity sensors during WHOTS-17 are shown in {numref}`figure5.8`
-through {numref}`figure5.15`. Most of the instruments had a drift of less than
+through {numref}`figure5.14`. Most of the instruments had a drift of less than
 0.02 Siemens/m for the duration of the deployment, and was corrected. Some of the 
 instruments deployed above 60 m showed a
 negative drift starting a few months before the end of their record, apparently
@@ -523,12 +523,12 @@ files using scripts developed by
 [Eric Firing’s ADCP lab](https://currents.soest.hawaii.edu). The beginning of
 the raw data files was truncated to a time after the mooring anchor was
 released to allow time for the anchor to reach the seabed and for the mooring
-motions that follow the anchor`s impact on the seafloor to dissipate. The
+motions that follow the anchor's impact on the seafloor to dissipate. The
 pitch, roll, and ADCP temperature were examined to pick reasonable times that
 ensured good data quality without unnecessarily discarding too much data
 ({numref}`figure5.18`, {numref}`figure5.19`). Truncation at the end of the data
 files was chosen to be the ensemble before the acoustic release signal was sent
-to avoid contamination due to the instrument`s ascent. The times of the first
+to avoid contamination due to the instrument's ascent. The times of the first
 ensemble from the raw data, deployments, and recovery time, along with the
 truncated records of both deployments, are shown in {numref}`table-21`.
 
@@ -632,7 +632,7 @@ procedures were applied to the WHOTS-17 deployment of ADCP data.
 
 1. The first bin (closest to the transducer) is sometimes corrupted due to what
    is known as ringing. A period of time is needed for the sound energy
-   produced during a transducer`s transmit pulse to dissipate before the ADCP
+   produced during a transducer's transmit pulse to dissipate before the ADCP
    can adequately receive the returned echoes. This “blanking interval” is used
    to prevent useless data from being recorded. If it is too short, signal
    returns can be contaminated by the lingering noise from the transducer. The
@@ -833,9 +833,9 @@ Same as {numref}`figure5.26`, but for the meridional (V) velocity component.
 
 ## Global Positioning System Receiver
 
-Xeos Global Positioning System receiver Melo(`IMEI:300034013707580`) and
-Rover(low central towe:`IMEI:300434064530400`; high tower top:
-`IMEI:300434063547190`) were attached to the buoy`s tower top during the
+Xeos Global Positioning System receiver Melo("IMEI:300034013707580") and
+Rover(low central towe:"IMEI:300434064530400"; high tower top:
+"IMEI:300434063547190") were attached to the buoy`s tower top during the
 WHOTS-17 deployment ({ref}`/3_section.md#description-of-whots-17-mooring`).
 Data returns from the receiver were high ({numref}`table-gps`).
 
@@ -843,6 +843,7 @@ Data returns from the receiver were high ({numref}`table-gps`).
 :class: sd-m-auto
 :align: center
 :name: table-gps
+
 |  **Raw file**  | **Xeos GPS (Melo)** | **Xeos GPS (Rover)** |
 | :------------: | :-----------------: | :------------------: |
 | **Start Time** |  08/04/21 02:11:00  |  08/04/21 02:10:00   |
