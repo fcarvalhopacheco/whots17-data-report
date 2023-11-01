@@ -1,0 +1,295 @@
+  Instrument S/N:  7637
+       Frequency:  307200 HZ
+   Configuration:  4 BEAM, JANUS
+     Match Layer:  10
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  UP  
+       Sensor(s):  HEADING  TILT 1  TILT 2  TEMPERATURE
+Temp Sens Offset:  -0.29 degrees C
+
+    CPU Firmware:  50.40 [0]
+   Boot Code Ver:  Required:  1.16   Actual:  1.16
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   4
+
+Board Serial Number Data:
+   97  00 00 00 86 5D 54  09 REC727-1000-04E
+   1F  00 00 00 7E 6B FC  09 CPU727-2000-00J
+   12  00 00 00 86 BE 49  09 DSP727-2001-04G
+   B6  00 00 00 7E 9A 19  09 PIO727-3000-00C
+>tt?
+TT 2021/08/25,05:50:44 - Time Set (CCYY/MM/DD,hh:mm:ss)
+>TT 2021/08/25,07:55:20
+>tt?
+TT 2021/08/25,07:55:23 - Time Set (CCYY/MM/DD,hh:mm:ss)
+>ps3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -70.00      270.00
+  2         -70.00       90.00
+  3         -70.00        0.01
+  4         -70.00      180.00
+
+Beam Directional Matrix (Down):
+  0.3420    0.0000    0.9397    0.2419  
+ -0.3420    0.0000    0.9397    0.2419  
+  0.0000   -0.3420    0.9397   -0.2419  
+  0.0000    0.3420    0.9397   -0.2419  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4619   -1.4619    0.0000    0.0000       23952  -23952       0       0  
+  0.0000    0.0000   -1.4619    1.4619           0       0  -23952   23952  
+  0.2661    0.2661    0.2661    0.2661        4359    4359    4359    4359  
+  1.0337    1.0337   -1.0337   -1.0337       16936   16936  -16936  -16936  
+Beam Angle Corrections Are Loaded.
+>pa
+
+PRE-DEPLOYMENT TESTS
+
+CPU TESTS:
+  RTC......................................PASS
+  RAM......................................PASS
+  ROM......................................PASS
+RECORDER TESTS:
+  PC Card #0...............................DETECTED
+    Card Detect............................PASS
+    Communication..........................PASS
+    DOS Structure..........................PASS
+    Sector Test (short)....................PASS
+  PC Card #1...............................DETECTED
+    Card Detect............................PASS
+    Communication..........................PASS
+    DOS Structure..........................PASS
+    Sector Test (short)....................PASS
+DSP TESTS:
+  Timing RAM...............................PASS
+  Demod  RAM...............................PASS
+  Demod  REG...............................PASS
+  FIFOs....................................PASS
+SYSTEM TESTS:
+  XILINX Interrupts... IRQ3  IRQ3  IRQ3 ...PASS
+  Wide Bandwidth...........................PASS
+  Narrow Bandwidth.........................PASS
+  RSSI Filter..............................PASS
+  Transmit.................................PASS
+SENSOR TESTS:
+  H/W Operation.........................***FAIL***
+>pc1
+
+
+BEAM CONTINUITY TEST
+
+When prompted to do so, vigorously rub the selected
+beam's face.
+
+If a beam does not PASS the test, send any character to
+the ADCP to automatically select the next beam.
+
+Collecting Statistical Data...
+  41  44  41  42
+  41  43  41  42
+  41  43  41  42
+  41  43  41  42
+  41  43  41  42
+  41  43  41  42
+  41  43  41  42
+  41  43  41  42
+  41  43  41  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+  41  43  40  42
+
+Rub Beam 1 = PASS
+Rub Beam 2 = PASS
+Rub Beam 3 = PASS
+Rub Beam 4 = PASS
+
+>ac
+
+              ACTIVE FLUXGATE CALIBRATION MATRICES in NVRAM
+               Calibration date and time: 8/3/1921  21:50:35
+                             S inverse
+     Bx      3.6771e-01  3.6385e-01  2.8706e-02 -3.5228e-02 
+     By      1.1022e-02 -7.0206e-03 -6.5931e-03 -4.6329e-01 
+     Bz      1.8963e-01 -1.5037e-01  2.7762e-01 -4.4941e-03 
+     Err    -4.0055e+01  3.6551e+01  4.7122e+01 -2.1774e+00 
+                        Coil Offset
+                            3.3140e+04   
+                            3.2124e+04   
+                            3.4319e+04   
+                            3.3343e+04   
+
+                         Electrical Null
+                               33460 
+                    TILT CALIBRATION MATRICES in NVRAM
+                Calibration date and time: 4/14/2006  15:49:48
+              Average Temperature During Calibration was   26.3C
+                   Up                              Down
+
+ Roll     -6.3199e-08  -1.1565e-05        -3.4249e-09   1.5773e-05 
+ Pitch    -1.2120e-05   7.1944e-08        -1.5315e-05   3.6304e-08 
+ Offset    3.1094e+04   2.9535e+04         2.9891e+04   3.1151e+04 
+
+                      Null   33097 
+
+>rf
+RF = 41931448,150034432 --- Rec space used (bytes), free (bytes)
+
+>rs
+RS = 040,144 ------------- REC SPACE USED (MB), FREE (MB)
+
+>rr
+Recorder Directory:
+Volume serial number for device #0 is 1633-17f2
+
+  No files found.
+
+  Bytes used on device #0 = 0
+Volume serial number for device #1 is 3357-0de5
+
+  WHOTS000 000          327990 09-21-18   0:22:46a r  a [    2]
+  WHOTS001 000        41603458 10-10-19   4:11:08a r  a [  163]
+
+  Bytes used on device #1 = 41931448
+Total capacity   =  191969280 bytes
+Total bytes used =   41931448 bytes in 2 files
+Total bytes free =  150034432 bytes
+
+>RE ErAsE  erasing...
+Recorder erased.
+
+>rs
+RS = 000,184 ------------- REC SPACE USED (MB), FREE (MB)
+
+>rr
+Recorder Directory:
+Volume serial number for device #0 is 1633-17f2
+
+  No files found.
+
+  Bytes used on device #0 = 0
+Volume serial number for device #1 is 3357-0de5
+
+  No files found.
+
+  Bytes used on device #1 = 0
+Total capacity   =  191969280 bytes
+Total bytes used =          0 bytes in 0 files
+Total bytes free =  191969280 bytes
+
+>rnwhot17
+>cf1101  ERR:  Bad command parameters! 
+>cf1101  ERR:  Bad command parameters! 
+>cf11101
+>eb00934
+>ed1250
+>es35
+>ex11111
+>wa70
+>wb0
+>wd111100000
+>wwf176
+>wn30
+>wp40
+>ws0400
+>wv175
+>te00:10:00.00
+>tp00:04:00
+>tg2021/08/25,0607:07:00ERR:  TF date/time is in the past!
+  ERR:  Bad command parameters!Out of range! 
+>tt?
+TT 2021/08/25,08:03:55 - Time Set (CCYY/MM/DD,hh:mm:ss)
+>TT 20241/08/25 06:,06:04:42
+>tt?
+TT 2021/08/25,06:04:44 - Time Set (CCYY/MM/DD,hh:mm:ss)
+>tg2021/08/25,06:07:00
+>ck
+[Parameters saved as USER defaults]
+>deploy
+Deployment Commands:
+CF = 11101 --------------- Flow Ctrl (EnsCyc;PngCyc;Binry;Set;Rec)
+CK ----------------------- Keep Parameters as USER Defaults
+CR # --------------------- Retrieve Parameters (0 = USER, 1 = FACTORY)
+CS ----------------------- Start Deployment
+
+EA = +00000 -------------- Heading Alignment (1/100 deg)
+EB = +00934 -------------- Heading Bias (1/100 deg)
+ED = 01250 --------------- Transducer Depth (0 - 65535 dm)
+ES = 35 ------------------ Salinity (0-40 pp thousand)
+EX = 11111 --------------- Coord Transform (Xform: Type,Tilts,3 Bm,Map)
+EZ = 1111101 ------------- Sensor Source (C,D,H,P,R,S,T)
+
+RE ----------------------- Recorder ErAsE
+RN ----------------------- Set Deployment Name
+
+TE = 00:10:00.00 --------- Time per Ensemble (hrs:min:sec.sec/100)
+TF = 21/08/25,06:07:00 --- Time of First Ping (yr/mon/day,hour:min:sec)
+TP = 00:04.00 ------------ Time per Ping (min:sec.sec/100)
+TS = 21/08/25,06:05:11 --- Time Set (yr/mon/day,hour:min:sec)
+
+WD = 111 100 000 --------- Data Out (Vel,Cor,Amp; PG,St,P0; P1,P2,P3)
+WF = 0176 ---------------- Blank After Transmit (cm)
+Press any key to continue
+                       
+WN = 030 ----------------- Number of depth cells (1-128)
+WP = 00040 --------------- Pings per Ensemble (0-16384)
+WS = 0400 ---------------- Depth Cell Size (cm)
+WV = 175 ----------------- Mode 1 Ambiguity Vel (cm/s radial)
+
+>csd

@@ -1,0 +1,349 @@
+TT 2021/08/25,05:59:17 - Time Set (CCYY/MM/DD,hh:mm:ss)
+>TT 2021/08/25,05:37:450
+>tt?
+TT 2021/08/25,05:37:44 - Time Set (CCYY/MM/DD,hh:mm:ss)
+>ps0
+  Instrument S/N:  13917
+       Frequency:  614400 HZ
+   Configuration:  4 BEAM, JANUS
+     Match Layer:  10
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  UP  
+       Sensor(s):  HEADING  TILT 1  TILT 2  TEMPERATURE
+Temp Sens Offset:  -0.03 degrees C
+
+    CPU Firmware:  50.40 [0]
+   Boot Code Ver:  Required:  1.16   Actual:  1.16
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   6
+
+Board Serial Number Data:
+   A7  00 00 06 07 BD C0  09 PIO727-3000-00G
+   D3  00 00 06 07 CC 88  09 CPU727-2000-00M
+   8A  00 00 05 88 E4 75  09 REC727-1000-03E
+   69  00 00 06 07 C9 BF  09 DSP727-2001-03H
+>ps3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -70.00      270.00
+  2         -70.00       90.00
+  3         -70.00        0.01
+  4         -70.00      180.00
+
+Beam Directional Matrix (Down):
+  0.3420    0.0000    0.9397    0.2419  
+ -0.3420    0.0000    0.9397    0.2419  
+  0.0000   -0.3420    0.9397   -0.2419  
+  0.0000    0.3420    0.9397   -0.2419  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4619   -1.4619    0.0000    0.0000       23952  -23952       0       0  
+  0.0000    0.0000   -1.4619    1.4619           0       0  -23952   23952  
+  0.2661    0.2661    0.2661    0.2661        4359    4359    4359    4359  
+  1.0337    1.0337   -1.0337   -1.0337       16936   16936  -16936  -16936  
+Beam Angle Corrections Are Loaded.
+>pa
+
+PRE-DEPLOYMENT TESTS
+
+CPU TESTS:
+  RTC......................................PASS
+  RAM......................................PASS
+  ROM......................................PASS
+RECORDER TESTS:
+  PC Card #0...............................DETECTED
+    Card Detect............................PASS
+    Communication..........................PASS
+    DOS Structure..........................PASS
+    Sector Test (short)....................PASS
+  PC Card #1...............................NOT DETECTED
+DSP TESTS:
+  Timing RAM...............................PASS
+  Demod  RAM...............................PASS
+  Demod  REG...............................PASS
+  FIFOs....................................PASS
+SYSTEM TESTS:
+  XILINX Interrupts... IRQ3  IRQ3  IRQ3 ...PASS
+  Wide Bandwidth...........................PASS
+  Narrow Bandwidth.........................PASS
+  RSSI Filter..............................PASS
+  Transmit.................................PASS
+SENSOR TESTS:
+  H/W Operation.........................***FAIL***
+>pc1
+
+
+BEAM CONTINUITY TEST
+
+When prompted to do so, vigorously rub the selected
+beam's face.
+
+If a beam does not PASS the test, send any character to
+the ADCP to automatically select the next beam.
+
+Collecting Statistical Data...
+  50  44  52  46
+  50  44  52  46
+  50  44  52  46
+  50  44  51  46
+  49  44  51  46
+  49  44  51  46
+  49  44  51  46
+  49  44  51  46
+  49  44  51  46
+  49  44  51  46
+  49  44  51  46
+  49  44  51  46
+  49  44  51  46
+  49  44  51  46
+  49  44  51  46
+  49  44  51  46
+  49  44  51  46
+  49  44  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+  50  43  51  46
+
+Rub Beam 1 = FAIL
+Rub Beam 2 = FAIL
+Rub Beam 3 = FAIL
+Rub Beam 4 = FAIL
+
+>psc1
+
+
+BEAM CONTINUITY TEST
+
+When prompted to do so, vigorously rub the selected
+beam's face.
+
+If a beam does not PASS the test, send any character to
+the ADCP to automatically select the next beam.
+
+Collecting Statistical Data...
+  50  44  51  46
+  50  44  51  46
+  50  44  52  46
+  50  44  52  46
+  50  44  52  46
+  50  44  52  46
+  50  44  52  46
+  50  44  52  46
+  50  44  52  45
+  50  44  52  45
+  50  44  52  45
+  50  44  52  45
+  50  44  52  45
+  50  43  52  45
+  50  43  52  45
+  50  43  52  45
+  50  43  52  45
+  50  43  52  45
+  50  43  52  45
+  50  43  52  45
+  50  43  52  45
+  50  43  52  45
+  50  43  52  45
+  50  43  51  45
+  50  43  52  46
+  50  43  52  46
+  50  43  52  46
+  50  43  52  46
+  50  43  52  46
+  50  43  52  46
+  50  44  52  46
+  50  44  52  46
+  50  44  52  46
+  50  44  52  46
+  50  44  52  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  52  46
+  50  44  51  46
+  50  44  52  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+  50  44  51  46
+
+Rub Beam 1 = PASS
+Rub Beam 2 = PASS
+Rub Beam 3 = PASS
+Rub Beam 4 = PASS
+
+>ac
+
+              ACTIVE FLUXGATE CALIBRATION MATRICES in NVRAM
+               Calibration date and time: 8/3/1921  23:24:47
+                             S inverse
+                                                        
+     Bx      4.5806e-01  4.4931e-01  2.9609e-02 -2.3866e-02 
+     By     -1.0455e-02 -2.6395e-03 -3.4537e-03 -5.5286e-01 
+     Bz      2.1380e-01 -2.0241e-01  3.4100e-01 -2.4381e-02 
+     Err    -4.7694e-01  4.4911e-01  5.6584e-01  3.3404e-03 
+                                                            
+                             Coil Offset
+                            3.3761e+04   
+                            3.5130e+04   
+                            3.3647e+04   
+                            3.4559e+04   
+                                         
+                             Electrical Null
+                               34227 
+                    TILT CALIBRATION MATRICES in NVRAM
+                Calibration date and time: 2/23/2010  12:26:45
+              Average Temperature During Calibration was   24.9C
+                   Up                              Down
+ Roll      1.0130e-07  -1.5996e-05        -1.6233e-07   1.5691e-05 
+ Pitch    -1.6182e-05  -2.1434e-07        -1.5455e-05  -3.5425e-07 
+ Offset    3.1739e+04   3.0585e+04         3.1782e+04   3.2916e+04 
+                      Null    33506 
+>rf
+RF = 4200920,251363328 ---- Rec space used (bytes), free (bytes)
+
+>rs
+RS = 005,239 ------------- REC SPACE USED (MB), FREE (MB)
+
+>rb
+RECORDER TESTS:
+  PC Card #0...............................DETECTED
+    Card Detect............................PASS
+    Communication..........................PASS
+    DOS Structure..........................PASS
+    Sector Test (Short)....................PASS
+  PC Card #1...............................NOT DETECTED
+
+Recorder tests complete.
+
+>re erase
+Must use 'RE ErAsE' or 're ErAsE' to erase recorder!
+
+Recorder not erased.
+
+>RE ErAsE  erasing...
+Recorder erased.
+
+>rs
+RS = 000,244 ------------- REC SPACE USED (MB), FREE (MB)
+
+>rmwhots
+>tr
+>rnwhots17
+>cf11101
+>eb934
+>ed047
+>es35
+>ex11111
+>ez1111101
+>wa70
+>wb0
+>wf088
+>wn25
+>wp80
+>ws0200
+>wv175
+>te00:10:00.00
+>tp00:02.00
+>tg201821/08/25,05:50:-00
+>ck
+[Parameters saved as USER defaults]
+>deploy
+Deployment Commands:
+CF = 11101 --------------- Flow Ctrl (EnsCyc;PngCyc;Binry;Set;Rec)
+CK ----------------------- Keep Parameters as USER Defaults
+CR # --------------------- Retrieve Parameters (0 = USER, 1 = FACTORY)
+CS ----------------------- Start Deployment
+
+EA = +00000 -------------- Heading Alignment (1/100 deg)
+EB = +00934 -------------- Heading Bias (1/100 deg)
+ED = 00047 --------------- Transducer Depth (0 - 65535 dm)
+ES = 35 ------------------ Salinity (0-40 pp thousand)
+EX = 11111 --------------- Coord Transform (Xform: Type,Tilts,3 Bm,Map)
+EZ = 1111101 ------------- Sensor Source (C,D,H,P,R,S,T)
+
+RE ----------------------- Recorder ErAsE
+RN ----------------------- Set Deployment Name
+
+TE = 00:10:00.00 --------- Time per Ensemble (hrs:min:sec.sec/100)
+TF = 21/08/25,05:50:00 --- Time of First Ping (yr/mon/day,hour:min:sec)
+TP = 00:02.00 ------------ Time per Ping (min:sec.sec/100)
+TS = 21/08/25,05:47:42 --- Time Set (yr/mon/day,hour:min:sec)
+
+WD = 111 100 000 --------- Data Out (Vel,Cor,Amp; PG,St,P0; P1,P2,P3)
+WF = 0088 ---------------- Blank After Transmit (cm)
+Press any key to continue
+                       
+WN = 025 ----------------- Number of depth cells (1-128)
+WP = 00080 --------------- Pings per Ensemble (0-16384)
+WS = 0200 ---------------- Depth Cell Size (cm)
+WV = 175 ----------------- Mode 1 Ambiguity Vel (cm/s radial)
+
+>cs
