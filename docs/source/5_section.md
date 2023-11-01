@@ -13,10 +13,11 @@ stability, and conductivity calibration against CTD data from casts conducted
 near the mooring during HOT and WHOTS cruises. The detailed processing
 procedures are described in this section.
 
-```{table} WHOTS-17 MicroCAT temperature sensor calibration dates and sensor drift during deployments; *SN = Sea-Bird Serial Number; PDC = Pre-Deployment Calibration; PRC = Post-Recovery Calibration; TSA = Temperature Sensor's Annual Drift during WHOTS-17 ; N. depth = Nominal deployment depth*
+```{table} WHOTS-17 MicroCAT temperature sensor calibration dates and sensor drift during deployments; *SN = Sea-Bird Serial Number; PDC = Pre-Deployment Calibration; PRC = Post-Recovery Calibration; TSA = Temperature Sensor Annual Drift during WHOTS-17 ; N. depth = Nominal deployment depth*
 :class: sd-m-auto
 :align: center
 :name: table-14
+
 | **N. depth (m)** | **SN** |  **PDC**  |  **PRC**  | **TSA(mili°C)** |
 | :--------------: | :----: | :-------: | :-------: | :-------------: |
 |       1.6        |  5996  | 1-Aug-20  | 26-Feb-23 |      0.19       |
@@ -38,39 +39,43 @@ procedures are described in this section.
 |       155        |  4701  | 9-Jul-20  | 30-Sep-22 |      -0.1       |
 |       4659       | 11380  | 5-Aug-20  | 15-Feb-23 |      0.15       |
 |       4659       | 11381  | 4-Aug-20  | 10-Feb-23 |      0.43       |
+
 ```
 
 ### Internal Clock Check and Missing Samples
 
-Before the WHOTS-17 mooring deployment and after its recovery (before the data
-logging was stopped), the MicroCATs temperature sensors were placed in contact
-with an ice pack to create a spike in the data, to check for any problems with
+Before the WHOTS-17 mooring deployment and after its recovery (before the data 
+logging was stopped), the MicroCATs temperature sensors were placed in contact 
+with an ice pack to create a spike in the data, to check for any problems with 
 their internal clocks, and for possible missing samples ({numref}`table-8`).
-The cold spike before deployment was detected by a sudden decrease in temperature. For all the
-instruments, the clock time of this event matched the time of the spike (within
-the sampling interval of each instrument) correctly. The conductivity sensor
-from microcat #6892 failed on February 2022. The pressure sensor from microcat
-#3668 failed on January 2022. The microcat #2769 failed on November 2021.
-Lastly, the sensor #2451 displayed bad pressure data.
+The cold spike before deployment was detected by a sudden decrease in temperature. For all 
+the instruments, the clock time of this event matched the time of the spike 
+(within the sampling interval of each instrument) correctly. The conductivity 
+sensor from microcat #6892 at 7 m failed on February 2022. The pressure sensor 
+from microcat #3668 at 45 m failed on January 2022. The microcat #2769 at 105 m 
+failed on November 2021. Lastly, the instrument #2451 at 135 m displayed bad 
+pressure data after February 2022.
 
-````{warning} UPDATE EVERYTHING INSIDE HERE
 ### Pressure Drift Correction and Pressure Variability
 
 Some MicroCATs used in the moorings were outfitted with pressure sensors (
 {numref}`mooring_subsurface`). Biases were detected in the pressure sensors by
 comparing the on-deck pressure readings (which should be zero for standard
 atmospheric pressure at sea level of 1029 mbar) before deployment and after recovery.
-{numref}`table-15` shows the magnitude of the bias for each of the sensors
-before and after deployment. To correct this offset, a linear fit between the
-initial and final on-deck pressure offset as a function of time was obtained
-and subtracted from each sensor. Only three of the deep instruments registered
-on-deck pressure after recovery, all other instruments stopped recording data
-before recovery due to battery drainage. For these last instruments only a
-before-deployment pressure bias correction was applied.
+{numref}`table-15` shows the 
+magnitude of the bias for each of the sensors before and after deployment. To 
+correct this offset, a linear fit between the initial and final on-deck pressure 
+offset as a function of time was obtained and subtracted from each sensor. The 
+instruments at 45 and 105 m failed and yielded incorrect pressures before 
+recovery. For these instruments only a before-deployment pressure bias correction 
+was applied and the data after the failure were flagged bad. The pressure from 
+instrument at 135 m had a large bias and drift, and it failed in February 2022, 
+the before-deployment pressure bias and drift correction were applied, and the 
+data after the failure were flagged bad. 
 {numref}`figure5.1` shows the linearly
 corrected pressures measured by the MicroCATs located above 200 m during the
 WHOTS-17 deployment. For all these sensors, the mean difference from the
-nominal instrument pressure (based on the deployed depth) was less than 1.2
+nominal instrument pressure (based on the deployed depth) was less than 1.4
 dbar. The standard deviation of the pressure for the duration of the record was
 less than 1 dbar for all sensors, with the deeper sensors showing a slightly
 larger standard deviation. The range of variability for all sensors was about ±
@@ -82,24 +87,22 @@ due to the currents but also due to the motion of the mooring); mooring
 position {cite}`Santiago-Mandujano2007`.
 
 
-```{table} Pressure bias of MicroCATs with pressure sensors for WHOTS-17. All the instruments with a NA pressure bias ended recording before recovery. SN = Sea-bird Serial Number; BBD = Bias Before Deployment (dbar); BAR = Bias After Recovery (dbar)
+```{table} Pressure bias of MicroCATs with pressure sensors for WHOTS-17. The instruments with a NA pressure bias had bad pressures before recovery. SN = Sea-bird Serial Number; BBD = Bias Before Deployment (dbar); BAR = Bias After Recovery (dbar)
 :class: sd-m-auto
 :align: center
 :name: table-15
 | **Depth (m)** | **SN** | **BBD(dbar)** | **BAR(dbar)** |
 |:-------------:|:------:|:-------------:|:-------------:|
-|    **45**     |  6887  |     0.07      |      NA       |
-|    **95**     |  3670  |     -1.2      |      NA       |
-|    **105**    |  6889  |      0.1      |      NA       |
-|    **120**    |  6890  |     0.11      |      NA       |
-|    **135**    |  6888  |     0.12      |      NA       |
-|    **155**    |  6891  |     0.07      |      NA       |
-|   **1875**    |  3639  |     -0.04     |      NA       |
-|   **1875**    | 12242  |      0.1      |      0.9      |
-|   **4713**    | 11391  |      0.5      |       2       |
-|   **4713**    | 12241  |      0.4      |      1.5      |
+|     **7**     |  6892  |    -0.17      |    -0.18      |
+|    **45**     |  3668  |    -0.02      |      NA       |
+|    **85**     |  4699  |    -0.05      |    -0.03      |
+|    **105**    |  2769  |    -0.04      |      NA       |
+|    **120**    |  4700  |    -0.023     |    -0.25      |
+|    **135**    |  2451  |    -5.2       |      NA       |
+|    **155**    |  4701  |    -0.075     |    -0.04      |
+|   **4659**    | 11380  |    -4.45      |    -4.45      |
+|   **4659**    | 11381  |      0.4      |      1.5      |
 ```
-````
 
 ```{figure} figures/microcats/w17pbias_a.png
 :height: 1000px
@@ -121,7 +124,7 @@ each deployment, and their annual drift evaluations based on these calibrations
 are shown in {numref}`table-14`. These values turned out to be insignificant (
 not higher than 0.002 °C) for all sensors. Comparisons between the MicroCAT and
 CTD data from casts conducted near the mooring during HOT cruises confirmed
-that the rest of the moored instruments' temperature drift was insignificant.
+that the rest of the moored instruments temperature drift was insignificant.
 The two MicroCATs (SN 11380 and SN 11381) deployed near the bottom were drift
 corrected. {numref}`figure5.7` (upper panel) shows the temperature differences
 between both instruments before and after the correction. After the correction,
@@ -179,7 +182,7 @@ temperatures are also shown in the lower panel. It is difficult to assess the
 quality of the ADCP temperature from these comparisons. These sensors were
 located at the top of the thermocline, where we expect to find substantial
 temperature differences between adjacent sensors. However, an indication of the
-ADCP temperatures' quality is given in the upper panel plot, which shows
+ADCP temperatures quality is given in the upper panel plot, which shows
 temperatures fluctuating closely around zero.
 
 ```{figure} figures/microcats/w17tcompare_22.png
@@ -228,8 +231,6 @@ deployment. The light blue line is a 24-hour running mean of the differences.
 
 ### Conductivity Calibration
 
-```{warning} EDIT ME !!
-
 The results of the Sea-Bird post-recovery conductivity calibrations indicated
 that some MicroCAT conductivity sensors experienced relatively large offsets
 from their pre-deployment calibration. These were qualitatively confirmed by
@@ -250,7 +251,7 @@ during HOT cruises and during deployment/recovery cruises. Casts led between
 200 and 1000 m from the mooring were given extra weight in the correction
 compared to those conducted between 1 and 5 km away. Casts more than 5 km away
 from the mooring were not used. Given that the CTD casts are conducted at least
-200 m from the mooring, CTD and MicroCAT data's alignment was done in density
+200 m from the mooring, CTD and MicroCAT data alignment was done in density
 rather than in-depth. For cases where the alignment in density was not possible
 due to large conductivity offsets (causing unrealistic mooring density values),
 the alignment was done in temperature space. A cubic least-squares fit (LSF) to
@@ -282,7 +283,7 @@ negative buoyancy frequency) that were easy to detect and were not real when
 lasting for several days. Based on this, the conductivity correction of the
 corresponding sensors was revised.
 
-Correction of the deep and the near-bottom MicroCATs' conductivities were done following
+Correction of the deep and the near-bottom MicroCATs conductivities were done following
 similar procedures than for the shallow instruments, by comparing them
 against CTD data from near-bottom profiles conducted during HOT cruises
 ({numref}`figure5.7`, bottom panel). After correction, the salinity
@@ -293,13 +294,12 @@ development is not always linear in time. Their behavior can be highly variable
 {cite}`Santiago-Mandujano2007`. The corrections applied to each of the
 conductivity sensors during WHOTS-17 are shown in {numref}`figure5.8`
 through {numref}`figure5.15`. Most of the instruments had a drift of less than
-0.04 Siemens/m for the duration of the deployment (except for the near-surface
-instrument SN 1834 which had a 0.08 S/m drift), corrected with a linear or
-cubic least-squares fit. Many of the instruments deployed above 120 m showed a
+0.02 Siemens/m for the duration of the deployment, and was corrected. Some of the 
+instruments deployed above 60 m showed a
 negative drift starting a few months before the end of their record, apparently
-due to the anti-foulant expiration.
+due to the anti-foulant expiration. The instrument located at 155 m had a large 
+conductivity offset in May 2022 and was corrected.
 
-```
 
 ```{figure} figures/microcats/plt_w17_deep_corr.png
 :height: 1000px
@@ -308,7 +308,7 @@ due to the anti-foulant expiration.
 
 Temperature differences (top panel) and salinity differences (bottom panel)
 between MicroCATs #11381 and #11380 during WHOTS-17. The blue (red) lines are
-the differences before (after) correcting the data following the text's
+the differences before (after) correcting the data following the text
 procedures.
 ```
 
@@ -443,7 +443,7 @@ each pre-deployment field calibration are shown in {numref}`table-17` and
 
 #### Post-Deployment
 
-After the WHOTS-17 mooring was recovered, the ADCP compass's performance was
+After the WHOTS-17 mooring was recovered, the ADCP compass performance was
 tested at the University of Hawaiʻi at Mānoa on August 9, 2022, with an
 identical compass calibration procedure as during the pre-deployment
 calibration. Results from the WHOTS-17 post-deployment ADCP compass field
@@ -523,12 +523,12 @@ files using scripts developed by
 [Eric Firing’s ADCP lab](https://currents.soest.hawaii.edu). The beginning of
 the raw data files was truncated to a time after the mooring anchor was
 released to allow time for the anchor to reach the seabed and for the mooring
-motions that follow the anchor's impact on the seafloor to dissipate. The
+motions that follow the anchor`s impact on the seafloor to dissipate. The
 pitch, roll, and ADCP temperature were examined to pick reasonable times that
 ensured good data quality without unnecessarily discarding too much data
 ({numref}`figure5.18`, {numref}`figure5.19`). Truncation at the end of the data
 files was chosen to be the ensemble before the acoustic release signal was sent
-to avoid contamination due to the instrument's ascent. The times of the first
+to avoid contamination due to the instrument`s ascent. The times of the first
 ensemble from the raw data, deployments, and recovery time, along with the
 truncated records of both deployments, are shown in {numref}`table-21`.
 
@@ -567,18 +567,18 @@ Same as {numref}`figure5.18`, but for the 600 kHz ADCP.
 |     **ADCP on deck**     | 07/26/2022, 03:32:00 | 07/26/2022, 03:45:00 |
 ```
 
-```{warning}
-EDIT ME !!!
 #### ADCP Clock Drift
 
-Upon recovery, a spike is normally produced in the ADCP data by gently rubbing
-each instrument’s transducer by hand for 20 seconds (see {numref}`table-10`) to
-compare the ADCP clocks with the ship’s time server.  At the time when logging
+Upon recovery, a spike is normally produced in the ADCP data by applying an ice 
+pack next to the temperature sensor (see {numref}`table-10`) to
+compare the ADCP clocks with the ship’s time server.  The ice-spike time matched the 
+time of the 300 kHz ADCP temperature sensor spike within the corresponding 600 
+sec sample interval, however for the 600 kHz ADCP the temperature sensor spike 
+was off by one sample. At the time when logging
 was stopped, the 300 kHz instrument time was 15 sec behind UTC and the 600 kHz
-was 7 min 15 sec ahead of UTC. No drift corrections were made. However, this drift may be significant if the
+was 7 min 16 sec ahead of UTC. No drift corrections were made. However, this drift may be significant if the
 data are used for time-dependent analysis, such as tidal or spectrum analysis.
 A drift correction needs to be applied in those cases.
-```
 
 #### Heading Bias
 
@@ -632,7 +632,7 @@ procedures were applied to the WHOTS-17 deployment of ADCP data.
 
 1. The first bin (closest to the transducer) is sometimes corrupted due to what
    is known as ringing. A period of time is needed for the sound energy
-   produced during a transducer's transmit pulse to dissipate before the ADCP
+   produced during a transducer`s transmit pulse to dissipate before the ADCP
    can adequately receive the returned echoes. This “blanking interval” is used
    to prevent useless data from being recorded. If it is too short, signal
    returns can be contaminated by the lingering noise from the transducer. The
@@ -656,7 +656,7 @@ Number (NaN)` in the quality-controlled dataset ({numref}`figure5.21`).
    interference {cite}`Teledyne2011`. This contamination results from the much
    stronger signal reflection from the sea surface than from scatters,
    overwhelming the sidelobe suppression of the transducer. Data quality is
-   quantified using echo intensity, a measure of the backscattered echo's
+   quantified using echo intensity, a measure of the backscattered echo`s
    strength for each depth cell. With distance from the transducer sensor, echo
    intensity is expected to decrease. Sharp increases in echo intensity
    indicate contamination from surface reflection. Most of the data within the
@@ -735,7 +735,7 @@ Number (NaN)` in the quality-controlled dataset ({numref}`figure5.21`).
    differing by greater than {math}`0.48 ms^{-1}` were flagged.
 
 8. A 5-pole low pass Butterworth filter with a cutoff frequency of
-   {math}`0.25 \frac{cycles}{hour}` was used upon the time-series' length to
+   {math}`0.25 \frac{cycles}{hour}` was used upon the time-series` length to
    isolate low-frequency flow for each bin independently. The low-frequency
    flow is then subtracted, giving a time series of high-frequency velocity
    component fluctuations for each bin. Data points were considered outliers
@@ -835,7 +835,7 @@ Same as {numref}`figure5.26`, but for the meridional (V) velocity component.
 
 Xeos Global Positioning System receiver Melo(`IMEI:300034013707580`) and
 Rover(low central towe:`IMEI:300434064530400`; high tower top:
-`IMEI:300434063547190`) were attached to the buoy's tower top during the
+`IMEI:300434063547190`) were attached to the buoy`s tower top during the
 WHOTS-17 deployment ({ref}`/3_section.md#description-of-whots-17-mooring`).
 Data returns from the receiver were high ({numref}`table-gps`).
 

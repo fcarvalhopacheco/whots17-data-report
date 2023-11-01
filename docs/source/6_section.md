@@ -34,24 +34,16 @@ buoy (Station 50)({numref}`figure6.6`,{numref}`figure6.7`,{numref}`figure6.8`), 
 the WHOTS-18 mooring, displayed a subsurface salinity maximum between 100 and
 160 dbar and a mixed layer of 60 dbar deep.
 
-```{warning}
-
-PLEASE EDIT...
-
 The temperature MicroCAT records during the WHOTS-17 deployment
 ({numref}`wh17_Temp_1_4.png` through {numref}`wh17_Temp_17_20.png`) show
-noticeable seasonal variability in the upper 100 m. A temperature decrease in
-October-November 2019 was evident in the instruments below 65 m. The salinity
+noticeable seasonal variability in the upper 100 m. The salinity
 records ({numref}`wh17_Sali_1_4.png` through {numref}`wh17_Sali_17_20.png`) do
-not show an apparent seasonal cycle, but a salinity increase was recorded
-during October-November 2019, by the instruments between 40 and 85 m,
-coinciding with the temperature decrease. This increase was followed by a
-period of low salinity (less than 35 on average above 120 m) throughout
-2020-2021, with extreme values (nearly 34.4) above 120 m in November-December
-2019, and above 75 m in July-September 2020.
+not show an apparent seasonal cycle, but a salinity decrease was recorded from 
+mid April through June 2022 in 
+the upper 65 m. This decrease was followed by a period with high salinity.
 
 {numref}`w1_17_contTS.png` through {numref}`w1_17_cont_S.png` show contours of
-the WHOTS-17 MicroCAT data in context with data from the previous 17
+the WHOTS-17 MicroCAT data in context with data from the previous 16
 deployments. The seasonal cycle is evident in the temperature record, with
 record temperatures (higher than 26°C) in the summer of 2004, and again in
 2014, 2015, 2017, 2019, and 2020. Salinities in the subsurface salinity maximum
@@ -61,12 +53,12 @@ mid-2011 and early 2012. The salinity maximum extended to near the surface in
 early 2010, 2011, late2012-early 2013, and February-March 2013. Salinities in
 the salinity minimum decreased after 2015, showing low salinities above 100 m
 in 2016, 2017, 2018, and reaching record low values (34.4) in July-August 2019
-and July-September 2020. When plotted in {math}`\sigma\theta` coordinates
+and July-September 2020 and increasing in 2021. When plotted in {math}`\sigma\theta` coordinates
 ({numref}`w1_17_cont_S.png`), the salinity maximum seems to be centered roughly
 between 24 and 24.5 {math}`\sigma\theta`.
 
 Records from the WHOTS-17 MicroCATs ({numref}`plt_w17_aco.png`) deployed
-near the bottom of the mooring (4711 m) detected temperature and salinity
+near the bottom of the mooring (4659 m) detected temperature and salinity
 changes related to episodic ‘cold events’ apparently caused by bottom water
 moving between abyssal basins {cite}`Lukas2001`. These events are being
 monitored by instruments at the ALOHA Cabled Observatory (ACO) {cite}`Howe2011`
@@ -74,16 +66,16 @@ monitored by instruments at the ALOHA Cabled Observatory (ACO) {cite}`Howe2011`
 nautical miles north from the WHOTS-17 anchor), since June 2011.
 {numref}`plt_w17_aco.png` shows temperature and salinity records from
 the WHOTS-17 MicroCATs superimposed on the ACO data. The MicroCAT data
-agreed with the temperature decrease and the salinity variability
-registered by ACO instruments during cold events in January, March and
-December 2020, and a minor events in August 2020 and September 2021.
-```
+agreed with the temperature decrease and the salinity increase registered by 
+ACO instruments during cold events in September 2021 and July 2022. Minor events 
+in January and February 2022 were registered by the MicroCATs, but not by the ACO 
+instruments.
 
 {numref}`WHOTS-17_u_subplot.png` through {numref}`WHOTS-17_w_subplot.png` shows
 the time series of the zonal, meridional, and vertical currents recorded with
 the moored ADCPs during the WHOTS-17 deployment.
 {numref}`wh1_17_adcp_uv_cont.png`, through {numref}`wh1_17_adcp_w_cont.png`,
-shows the ADCP current components' contours in context with data from the
+shows the ADCP current components` contours in context with data from the
 previous deployments. Despite the gaps in the data, an apparent variability is
 seen in the zonal and meridional currents, apparently caused by passing eddies.
 There have been periods of intermittent positive or negative zonal currents on
@@ -488,7 +480,7 @@ and time from the moored ADCPs from the WHOTS-1 through -17 deployments.
 Staggered time-series of east velocity component ({math}`m s^{-1}`)
 for each bin of the 600 kHz (upper panel) and 300 kHz (lower panel) moored
 ADCPs during WHOTS-17. The time-series are offset upwards by
-0.5 {math}`m s^{-1}`; each bin's depth is on the right.
+0.5 {math}`m s^{-1}`; each bin`s depth is on the right.
 ```
 
 ```{figure} figures/adcp_moored/WHOTS-17_v_subplot.png
@@ -666,10 +658,10 @@ ADCP data of pitch, roll, and heading, shown in this section.
 
 {numref}`wh17_adcp_tilt.png` shows the ADCP data of the instrument’s tilt (a
 combination of the pitch and roll), plotted against the buoy’s distance from
-its anchor (derived from GPS positions), for both WHOTS-17 ADCP’s. The plot's
+its anchor (derived from GPS positions), for both WHOTS-17 ADCP’s. The plot`s
 red line is a quadratic fit to the median tilt calculated every 0.2 km distance
 bins. The figure shows that during both deployments, the ADCP tilt increased as
-the anchor's distance increased. This tilting was caused by the mooring line's
+the anchor`s distance increased. This tilting was caused by the mooring line`s
 deviation from its vertical position as the anchor pulled it. The tilting of
 the line also caused the rising of the instruments attached to the line.
 
