@@ -75,7 +75,7 @@ instruments.
 the time series of the zonal, meridional, and vertical currents recorded with
 the moored ADCPs during the WHOTS-17 deployment.
 {numref}`wh1_17_adcp_uv_cont.png`, through {numref}`wh1_17_adcp_w_cont.png`,
-shows the ADCP current components` contours in context with data from the
+shows the ADCP current components' contours in context with data from the
 previous deployments. Despite the gaps in the data, an apparent variability is
 seen in the zonal and meridional currents, apparently caused by passing eddies.
 There have been periods of intermittent positive or negative zonal currents on
@@ -658,10 +658,10 @@ ADCP data of pitch, roll, and heading, shown in this section.
 
 {numref}`wh17_adcp_tilt.png` shows the ADCP data of the instrument’s tilt (a
 combination of the pitch and roll), plotted against the buoy’s distance from
-its anchor (derived from GPS positions), for both WHOTS-17 ADCP’s. The plot`s
+its anchor (derived from GPS positions), for both WHOTS-17 ADCP's. The plot's
 red line is a quadratic fit to the median tilt calculated every 0.2 km distance
 bins. The figure shows that during both deployments, the ADCP tilt increased as
-the anchor`s distance increased. This tilting was caused by the mooring line`s
+the anchor's distance increased. This tilting was caused by the mooring line's
 deviation from its vertical position as the anchor pulled it. The tilting of
 the line also caused the rising of the instruments attached to the line.
 

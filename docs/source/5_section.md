@@ -834,12 +834,12 @@ Same as {numref}`figure5.26`, but for the meridional (V) velocity component.
 ## Global Positioning System Receiver
 
 Xeos Global Positioning System receiver Melo("IMEI:300034013707580") and
-Rover(low central towe:"IMEI:300434064530400"; high tower top:
-"IMEI:300434063547190") were attached to the buoy`s tower top during the
+Rover(low central tower:"IMEI:300434064530400"; high tower top:
+"IMEI:300434063547190") were attached to the buoys tower top during the
 WHOTS-17 deployment ({ref}`/3_section.md#description-of-whots-17-mooring`).
 Data returns from the receiver were high ({numref}`table-gps`).
 
-```{table} GPS record times (UTC mm/dd/yy hh:mm) during WHOTS-17
+```{table} GPS record times (UTC mm/dd/yy hh:mm) during WHOTS-17.
 :class: sd-m-auto
 :align: center
 :name: table-gps
