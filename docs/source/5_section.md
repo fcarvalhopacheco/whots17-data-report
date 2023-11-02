@@ -371,7 +371,7 @@ WHOTS-17.
 :align: center
 :name: figure5.14
 
-Conductivity sensor corrections for MicroCATs at 4711 meters
+Conductivity sensor corrections for MicroCATs at 4659 meters
 during WHOTS-17.
 ```
 
