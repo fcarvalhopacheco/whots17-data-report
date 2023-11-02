@@ -185,6 +185,7 @@ transducer was rubbed gently by hand for 20 seconds ({numref}`table-9`
 |   Transducer 4 Spike Time    |      20:13:45      |      20:10:50      |
 |      Time in the Water       | 08/25/21, 20:39:00 | 08/25/21, 21:00:00 |
 |      Time out of Water       | 07/26/22, 03:45:00 | 07/26/22, 03:32:00 |
+|       Time of spike          | 07/26/22, 19:08:00 | 07/26/22, 19:08:00 | 
 |     Time Logging Stopped     | 07/27/22, 06:53:00 | 07/27/22, 06:43:00 |
 | Instrument Time when Stopped | 07/27/22, 07:00:16 | 07/27/22, 06:42:45 |
 |          Depth (m)           |       47.5 m       |       125 m        |
