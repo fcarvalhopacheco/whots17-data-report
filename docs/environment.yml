@@ -15,4 +15,3 @@ dependencies:
   - myst-parser=0.17.0
   - sphinx=4.4.0
   - sphinxcontrib-bibtex=2.5.0
-

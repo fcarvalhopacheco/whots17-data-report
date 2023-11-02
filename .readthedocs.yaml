@@ -19,5 +19,5 @@ conda:
 
 python:
   install:
-  - requirements: docs/environment.yml
+  - requirements: docs/environment.yml 
 
