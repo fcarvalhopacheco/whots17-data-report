@@ -14,4 +14,6 @@ dependencies:
   - myst-parser=0.17.0
   - sphinx=4.4.0
   - sphinxcontrib-bibtex=2.5.0
+  - pip:
+    - readthedocs-sphinx-ext
 prefix: /home/helu/rlukas/tropac/miniconda3/envs/whots-data-report
