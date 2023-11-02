@@ -17,7 +17,6 @@ formats:
 conda:
   environment: docs/environment.yml
 
- python:
+python:
    install:
      - requirements: docs/environment.yml
-
