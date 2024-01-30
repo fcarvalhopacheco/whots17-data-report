@@ -131,7 +131,6 @@ WHOTS-18 cruise between July 23, and July 27, 2022. The WHOTS-18 mooring was
 deployed at Station 52 on July 24, 2022, 02:17 UTC at 22 40.002'N, 157
 56.793'W, and the WHOTS-17 mooring was recovered on July 25, 2022, 18:03 UTC.
 The scientific personnel that participated during the cruise are listed in
-
 {numref}`table-4`.
 
 ```{table} Scientific personnel on Ship Oscar Sette during the WHOTS-18 deployment cruise.
@@ -155,7 +154,7 @@ The scientific personnel that participated during the cruise are listed in
 
 The UH group conducted the shipboard oceanographic observations during the
 cruise. A complete description of these operations is available in the WHOTS-18
-cruise report {cite}`Santiago-Mandujano2022b`
+cruise report {cite}`Santiago-Mandujano2022b`.
 
 A Sea-Bird CTD system was used to measure T, S, and O2 profiles during CTD
 casts. The time, location, and maximum CTD pressure for each profile are listed

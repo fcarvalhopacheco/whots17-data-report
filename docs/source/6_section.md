@@ -38,8 +38,8 @@ The temperature MicroCAT records during the WHOTS-17 deployment
 ({numref}`wh17_Temp_1_4.png` through {numref}`wh17_Temp_17_20.png`) show
 noticeable seasonal variability in the upper 100 m. The salinity
 records ({numref}`wh17_Sali_1_4.png` through {numref}`wh17_Sali_17_20.png`) do
-not show an apparent seasonal cycle, but a salinity decrease was recorded from 
-mid April through June 2022 in 
+not show an apparent seasonal cycle, but a salinity decrease was recorded from
+mid April through June 2022 in
 the upper 65 m. This decrease was followed by a period with high salinity.
 
 {numref}`w1_17_contTS.png` through {numref}`w1_17_cont_S.png` show contours of
@@ -66,9 +66,9 @@ monitored by instruments at the ALOHA Cabled Observatory (ACO) {cite}`Howe2011`
 nautical miles north from the WHOTS-17 anchor), since June 2011.
 {numref}`plt_w17_aco.png` shows temperature and salinity records from
 the WHOTS-17 MicroCATs superimposed on the ACO data. The MicroCAT data
-agreed with the temperature decrease and the salinity increase registered by 
-ACO instruments during cold events in September 2021 and July 2022. Minor events 
-in January and February 2022 were registered by the MicroCATs, but not by the ACO 
+agreed with the temperature decrease and the salinity increase registered by
+ACO instruments during cold events in September 2021 and July 2022. Minor events
+in January and February 2022 were registered by the MicroCATs, but not by the ACO
 instruments.
 
 {numref}`WHOTS-17_u_subplot.png` through {numref}`WHOTS-17_w_subplot.png` shows
