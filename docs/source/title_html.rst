@@ -33,7 +33,7 @@
    17
 
 :Citation:
-    Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J., Weller, R. A., Fitzgerald, D., & Galbraith, N. R. (2023). Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17. School of Ocean and Earth Science and Technology (SOEST), Department of Oceanography, University of Hawai‘i at Mānoa, Honolulu, HI. https://doi.org/xx.xxxx/zenodo.xxxxxxx
+    Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J., Weller, R. A., Fitzgerald, D., & Galbraith, N. R. (2024). Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17. School of Ocean and Earth Science and Technology (SOEST), Department of Oceanography, University of Hawai‘i at Mānoa, Honolulu, HI. https://doi.org/xx.xxxx/zenodo.xxxxxxx
 
 :Contact:
 

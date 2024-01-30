@@ -1,7 +1,7 @@
 # WHOTS (17-18) Cruise Shipboard Observations
 
 The hydrographic profile observations made during the WHOTS cruises were
-obtained with a Sea-Bird CTD package with dual temperature, salinity, and
+obtained with a Sea-Bird CTD package with dual temperature, salinity and
 oxygen sensors. This CTD was installed on a rosette-sampler with 5 L Niskin
 sampling bottles for calibration water samples. Furthermore, the ship Oscar
 Sette came equipped with a thermosalinograph system that provided a continuous

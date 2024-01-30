@@ -44,16 +44,16 @@ procedures are described in this section.
 
 ### Internal Clock Check and Missing Samples
 
-Before the WHOTS-17 mooring deployment and after its recovery (before the data 
-logging was stopped), the MicroCATs temperature sensors were placed in contact 
-with an ice pack to create a spike in the data, to check for any problems with 
+Before the WHOTS-17 mooring deployment and after its recovery (before the data
+logging was stopped), the MicroCATs temperature sensors were placed in contact
+with an ice pack to create a spike in the data, to check for any problems with
 their internal clocks, and for possible missing samples ({numref}`table-8`).
-The cold spike before deployment was detected by a sudden decrease in temperature. For all 
-the instruments, the clock time of this event matched the time of the spike 
-(within the sampling interval of each instrument) correctly. The conductivity 
-sensor from microcat #6892 at 7 m failed on February 2022. The pressure sensor 
-from microcat #3668 at 45 m failed on January 2022. The microcat #2769 at 105 m 
-failed on November 2021. Lastly, the instrument #2451 at 135 m displayed bad 
+The cold spike before deployment was detected by a sudden decrease in temperature. For all
+the instruments, the clock time of this event matched the time of the spike
+(within the sampling interval of each instrument) correctly. The conductivity
+sensor from microcat #6892 at 7 m failed on February 2022. The pressure sensor
+from microcat #3668 at 45 m failed on January 2022. The microcat #2769 at 105 m
+failed on November 2021. Lastly, the instrument #2451 at 135 m displayed bad
 pressure data after February 2022.
 
 ### Pressure Drift Correction and Pressure Variability
@@ -62,16 +62,16 @@ Some MicroCATs used in the moorings were outfitted with pressure sensors (
 {numref}`mooring_subsurface`). Biases were detected in the pressure sensors by
 comparing the on-deck pressure readings (which should be zero for standard
 atmospheric pressure at sea level of 1029 mbar) before deployment and after recovery.
-{numref}`table-15` shows the 
-magnitude of the bias for each of the sensors before and after deployment. To 
-correct this offset, a linear fit between the initial and final on-deck pressure 
-offset as a function of time was obtained and subtracted from each sensor. The 
-instruments at 45 and 105 m failed and yielded incorrect pressures before 
-recovery. For these instruments only a before-deployment pressure bias correction 
-was applied and the data after the failure were flagged bad. The pressure from 
-instrument at 135 m had a large bias and drift, and it failed in February 2022, 
-the before-deployment pressure bias and drift correction were applied, and the 
-data after the failure were flagged bad. 
+{numref}`table-15` shows the
+magnitude of the bias for each of the sensors before and after deployment. To
+correct this offset, a linear fit between the initial and final on-deck pressure
+offset as a function of time was obtained and subtracted from each sensor. The
+instruments at 45 and 105 m failed and yielded incorrect pressures before
+recovery. For these instruments only a before-deployment pressure bias correction
+was applied, and the data after the failure were flagged bad. The pressure from
+instrument at 135 m had a large bias and drift, and it failed in February 2022,
+the before-deployment pressure bias and drift correction were applied, and the
+data after the failure were flagged bad.
 {numref}`figure5.1` shows the linearly
 corrected pressures measured by the MicroCATs located above 200 m during the
 WHOTS-17 deployment. For all these sensors, the mean difference from the
@@ -85,7 +85,6 @@ The causes of pressure variability can be several, including density variations
 in the water column above the instrument; horizontal dynamic pressure (not only
 due to the currents but also due to the motion of the mooring); mooring
 position {cite}`Santiago-Mandujano2007`.
-
 
 ```{table} Pressure bias of MicroCATs with pressure sensors for WHOTS-17. The instruments with a NA pressure bias had bad pressures before recovery. SN = Sea-bird Serial Number; BBD = Bias Before Deployment (dbar); BAR = Bias After Recovery (dbar)
 :class: sd-m-auto
@@ -294,12 +293,11 @@ development is not always linear in time. Their behavior can be highly variable
 {cite}`Santiago-Mandujano2007`. The corrections applied to each of the
 conductivity sensors during WHOTS-17 are shown in {numref}`figure5.8`
 through {numref}`figure5.14`. Most of the instruments had a drift of less than
-0.02 Siemens/m for the duration of the deployment, and was corrected. Some of the 
+0.02 Siemens/m for the duration of the deployment, and was corrected. Some
 instruments deployed above 60 m showed a
 negative drift starting a few months before the end of their record, apparently
-due to the anti-foulant expiration. The instrument located at 155 m had a large 
+due to the anti-foulant expiration. The instrument located at 155 m had a large
 conductivity offset in May 2022 and was corrected.
-
 
 ```{figure} figures/microcats/plt_w17_deep_corr.png
 :height: 1000px
@@ -380,8 +378,8 @@ during WHOTS-17.
 Two TRDI broadband Workhorse Sentinel ADCP’s were deployed on the WHOTS-17
 mooring. A 600 kHz ADCP was deployed at 47.5 m depth in the upward-looking
 configuration, and a 300 kHz ADCP was deployed at 125 m, also in the
-upward-looking configuration. The instruments were installed in aluminum frames
-and an external battery module to provide sufficient power for the intended
+upward-looking configuration. The instruments were installed in aluminum
+frames,and an external battery module to provide enough power for the intended
 period of deployment. The four ADCP beams were angled at 20° from the vertical
 line of the instrument. The 300 kHz ADCP was set to profile across 30 range
 cells of 4 m with the first bin centered at 6.21m from the transducer. The 600
@@ -495,7 +493,7 @@ detailed in {ref}`/appendices.md#whots-17-300-khz-serial-7367`, and
 {ref}`/appendices.md#whots-17-600-khz-serial-13917`. The salient differences for
 each of the ADCP’s are summarized below.
 
-#### 300 kHz (SN/7367 - 125m)
+#### 300 kHz (SN/7367- 125m)
 
 The ADCP, set to a beam frequency of 300 kHz, was configured in a burst
 sampling mode consisting of 40 pings per ensemble to resolve low-frequency wave
@@ -529,7 +527,7 @@ ensured good data quality without unnecessarily discarding too much data
 ({numref}`figure5.18`, {numref}`figure5.19`). Truncation at the end of the data
 files was chosen to be the ensemble before the acoustic release signal was sent
 to avoid contamination due to the instrument's ascent. The times of the first
-ensemble from the raw data, deployments, and recovery time, along with the
+ensemble from the raw data, deployments and recovery time, along with the
 truncated records of both deployments, are shown in {numref}`table-21`.
 
 ```{figure} figures/adcp_moored/300_rawt_plt.png
@@ -569,11 +567,11 @@ Same as {numref}`figure5.18`, but for the 600 kHz ADCP.
 
 #### ADCP Clock Drift
 
-Upon recovery, a spike is normally produced in the ADCP data by applying an ice 
+Upon recovery, a spike is normally produced in the ADCP data by applying an ice
 pack next to the temperature sensor (see {numref}`table-10`) to
-compare the ADCP clocks with the ship’s time server.  The ice-spike time matched the 
-time of the 300 kHz ADCP temperature sensor spike within the corresponding 600 
-sec sample interval, however for the 600 kHz ADCP the temperature sensor spike 
+compare the ADCP clocks with the ship’s time server. The ice-spike time matched the
+time of the 300 kHz ADCP temperature sensor spike within the corresponding 600
+sec sample interval, however for the 600 kHz ADCP the temperature sensor spike
 was off by one sample. At the time when logging
 was stopped, the 300 kHz instrument time was 15 sec behind UTC and the 600 kHz
 was 7 min 16 sec ahead of UTC. No drift corrections were made. However, this drift may be significant if the
@@ -598,7 +596,7 @@ ADCP’s.
 Due to the constant proportionality between the Doppler shift and water speed,
 the speed of sound needs only be measured at the transducer head
 {cite}`Firing1991`. The sound speed used by the ADCP is calculated using a
-constant value of salinity (35) and the temperature recorded by the transducer
+constant value of salinity (35), and the temperature recorded by the transducer
 temperature sensor of the ADCP. Using CTD profiles close to the mooring during
 HOT cruises, HOT-333 to 337, and from the WHOTS deployment/recovery cruises,
 the mean salinity at 125 dbar was 35.17 while the mean salinity at 47.5 dbar
@@ -679,7 +677,7 @@ Number (NaN)` in the quality-controlled dataset ({numref}`figure5.21`).
    coordinates, the percent good field shows the percentage of pings that could
    be used to create the earth coordinate velocities. The percent good fields
    show the percentage of data made using 4 and 3 beam solutions in each depth
-   cell within an ensemble and the percentage that was rejected due to failing
+   cell within an ensemble, and the percentage that was rejected due to failing
    one of the criteria set during the instrument setup (see
    {ref}`/appendices.md#whots-17-300-khz-serial-7367`). Data were flagged when
    data in each depth cell within an ensemble made from 3 or 4 beam solutions
@@ -694,7 +692,7 @@ Number (NaN)` in the quality-controlled dataset ({numref}`figure5.21`).
    indicate sudden changes in particle density or sudden changes in ADCP tilt.
    More research is needed at this time into relationships between ADCP tilt
    and correlation magnitude. If any beam had a correlation magnitude of 20
-   counts or less, that data point was flagged.
+   counts or fewer, that data point was flagged.
 
 6. Histograms of raw vertical velocity data and partially cleaned data from the
    ADCP ({numref}`figure5.22` and {numref}`figure5.23`) and the WHOTS Data
