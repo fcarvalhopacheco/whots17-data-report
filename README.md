@@ -28,14 +28,14 @@ ocean response as a coordinated part of the HOT program, and as an element of
 the global array of ocean reference stations supported by the National Oceanic
 and Atmospheric Administration’s (NOAA) Office of Climate Observation.
 
-The WHOTS-17 mooring was deployed on August 6, 2021 ([WHOTS-17
+The WHOTS-17 mooring was deployed on August 26, 2021 ([WHOTS-17
 cruise](http://www.soest.hawaii.edu/whots/wh17_dep.html)) and was recovered on
 July 25, 2022 ([WHOTS-18
 cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html)). The cruises were
-aboard the R/V Oscar Elton Settle. The WHOTS-18 mooring was deployed on July 4,
+aboard the R/V Oscar Elton Settle. The WHOTS-18 mooring was deployed on July 24,
 2022, during the [WHOTS-18
 cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html) and was recovered on
-June 20, 2023.
+June 19, 2023.
 
 This report documents and describes the oceanographic observations made on the
 WHOTS-17 mooring for about eleven months and from shipboard measurements
@@ -62,7 +62,7 @@ Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J.
 - `Bibtex`
 
 ```bibtex
-@techreport{Carvalho_Pacheco_Hydrographic_Observations_at_2022,
+@techreport{Carvalho_Pacheco_Hydrographic_Observations_at_2024,
   author = {Carvalho Pacheco, Fernando and Santiago-Mandujano, Fernando and Potemra, James T. and Plueddemann, Albert J. and Weller, Robert A. and Fitzgerald, Daniel and Galbraith, Nancy R.},
   doi = {10.5281/zenodo.8188053},
   institution = {School of Ocean and Earth Science and Technology (SOEST), Department of Oceanography, University of Hawai‘i at Mānoa, Honolulu, HI},
