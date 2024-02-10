@@ -56,7 +56,7 @@ data and preliminary analysis ar presented in [Section VI](https://whots-annual-
 - `APA`
 
 ```
-Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J., Weller, R. A., Fitzgerald, D., & Galbraith, N. R. (2023). Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17. School of Ocean and Earth Science and Technology (SOEST), Department of Oceanography, University of Hawai‘i at Mānoa, Honolulu, HI. https://doi.org/10.5281/zenodo.8188053
+Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J., Weller, R. A., Fitzgerald, D., & Galbraith, N. R. (2024). Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17. School of Ocean and Earth Science and Technology (SOEST), Department of Oceanography, University of Hawai‘i at Mānoa, Honolulu, HI. https://doi.org/10.5281/zenodo.8188053
 ```
 
 - `Bibtex`
@@ -68,7 +68,7 @@ Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J.
   institution = {School of Ocean and Earth Science and Technology (SOEST), Department of Oceanography, University of Hawai‘i at Mānoa, Honolulu, HI},
   title = { {Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17} },
   url = {http://whots17-data-report.readthedocs.io/},
-  year = { 2023 },
+  year = { 2024 },
   note = { This publication is based upon observations from the WHOI-Hawaii
   Ocean Time-series Site (WHOTS) mooring, which is supported in part by the
   National Oceanic and Atmospheric Administration (NOAA) Global Ocean
@@ -78,7 +78,7 @@ Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J.
   Oceanographic Institution, and by National Science Foundation grants
   OCE-0327513,OCE-0752606, OCE-0926766, OCE-1260164 and OCE-1756517 to the
   University of Hawaii for the Hawaii Ocean Time-series.
-  This is SOEST contribution number xXxXxX.}
+  This is SOEST contribution number 11768.}
 
 }
 ```
@@ -124,7 +124,7 @@ Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J.
   [OCE-1756517](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1756517&HistoricalAwards=false)
   to the University of Hawaii for the Hawaii Ocean Time-series.
 
-- This is SOEST contribution number xxxxx.
+- This is SOEST contribution number 11768.
 
 ## Contact
 
