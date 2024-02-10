@@ -159,7 +159,7 @@ latex_domain_indices = True
 epub_title = "whots17-data-report-epub"
 epub_author = "Hawaii Ocean Time-series (HOT)"
 epub_publisher = "Hawaii Ocean Time-series (HOT)"
-epub_copyright = f"2023-01-06-{datetime.now().year}, Fernando Carvalho Pacheco"
+epub_copyright = f"2024-02-09-{datetime.now().year}, Fernando Carvalho Pacheco"
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ["search.html"]
