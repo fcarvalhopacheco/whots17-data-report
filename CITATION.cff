@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17"
 message: "If you use this report, please cite it using the metadata from this file."
-date-released: "2023-08-01"
+date-released: "2024-02-09"
 authors:
   - given-names: Fernando
     family-names: Carvalho Pacheco
@@ -91,10 +91,10 @@ preferred-citation:
       family-names: Galbraith
       affiliation: Woods Hole Oceanographic Institution - Woods Hole, MA
   start: 1
-  end: 107
-  pages: 107
+  end: 129
+  pages: 129
   title: "Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17"
-  year: "2023"
+  year: "2024"
   institution:
     name: "School of Ocean and Earth Science and Technology (SOEST), Department of Oceanography, University of Hawai‘i at Mānoa, Honolulu, HI"
     address: 1000 Pope Road, Marine Sciences Building (MSB)
@@ -102,8 +102,8 @@ preferred-citation:
     country: US
     post-code: 96822
   department: Department of Oceanography
-  date-released: 2023-08-01
-  number: xxxxx
+  date-released: 2024-02-09
+  number: 11768
   license: CC-BY-4.0
   url: http://whots17-data-report.readthedocs.io/
   doi: 10.5281/zenodo.8188053
@@ -114,7 +114,7 @@ preferred-citation:
   Observing (GOMO) Program through the Cooperative Institute for the North Atlantic Region (CINAR) under Cooperative 
   Agreement NA14OAR4320158. NOAA CPO FundRef number 100007298 to the Woods Hole Oceanographic Institution, and by 
   National Science Foundation grants OCE-0327513,OCE-0752606, OCE-0926766, OCE-1260164 and OCE-1756517 to the University 
-  of Hawaii for the Hawaii Ocean Time-series. This is SOEST contribution number XxXxXxXxX"
+  of Hawaii for the Hawaii Ocean Time-series. This is SOEST contribution number 11768"
   identifiers:
     - type: doi
       value: "10.5281/zenodo.8188052"
@@ -137,7 +137,7 @@ references:
 
   - type: grant
     authors:
-      - family-names: Lukas
+      - family-names: Lukas11768
         given-names: Roger
         email: "rlukas@hawaii.edu"
       - family-names: Carter
