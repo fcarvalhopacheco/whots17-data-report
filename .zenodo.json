@@ -55,7 +55,7 @@
       "scheme": "url",
       "identifier": "https://github.com/hot-dogs/whots17-data-report",
       "relation": "isSupplementTo",
-      "resource_type": "publication-report"
+      "resource_type": "software"
     },
     {
       "scheme": "url",
