@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17"
 message: "If you use this report, please cite it using the metadata from this file."
-date-released: "2024-02-12"
+date-released: "2024-02-13"
 authors:
   - given-names: Fernando
     family-names: Carvalho Pacheco
@@ -54,7 +54,7 @@ keywords:
   - physical oceanography
 repository-code: https://github.com/hot-dogs/whots17-data-report
 url: http://whots17-data-report.readthedocs.io/
-doi: 10.5281/zenodo.8188053
+doi: 10.5281/zenodo.10652516
 preferred-citation:
   type: report
   authors:
@@ -102,11 +102,11 @@ preferred-citation:
     country: US
     post-code: 96822
   department: Department of Oceanography
-  date-released: 2024-02-12
+  date-released: 2024-02-13
   number: 11768
   license: CC-BY-4.0
   url: http://whots17-data-report.readthedocs.io/
-  doi: 10.5281/zenodo.8188053
+  doi: 10.5281/zenodo.10652516
   publisher:
     name: "School of Ocean and Earth Science and Technology (SOEST)"
   notes: "This publication is based upon observations from the WHOI-Hawaii Ocean Time-series Site (WHOTS) mooring, 
@@ -117,7 +117,7 @@ preferred-citation:
   of Hawaii for the Hawaii Ocean Time-series. This is SOEST contribution number 11768"
   identifiers:
     - type: doi
-      value: "10.5281/zenodo.8188052"
+      value: "10.5281/zenodo.10652515"
       description: The concept DOI of the work
 references:
   - type: grant

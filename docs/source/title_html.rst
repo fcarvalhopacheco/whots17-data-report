@@ -6,8 +6,8 @@
 .. image:: https://readthedocs.org/projects/whots17-data-report/badge/?version=latest
     :target: https://whots17-data-report.readthedocs.io/en/latest/?badge=latest
 
-.. image:: https://zenodo.org/badge/doi/10.5281/zenodo.8188053.svg
-   :target: https://doi.org/10.5281/zenodo.8188053
+.. image:: https://zenodo.org/badge/doi/10.5281/zenodo.10652516.svg
+   :target: https://doi.org/10.5281/zenodo.10652516
 
 .. image:: https://github.com/hot-dogs/whots17-data-report/actions/workflows/cff-validator.yml/badge.svg
    :target: https://github.com/hot-dogs/whots17-data-report/actions/workflows/cff-validator.yml
@@ -33,7 +33,7 @@
    17
 
 :Citation:
-    Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J., Weller, R. A., Fitzgerald, D., & Galbraith, N. R. (2024). Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17. School of Ocean and Earth Science and Technology (SOEST), Department of Oceanography, University of Hawai‘i at Mānoa, Honolulu, HI. https://doi.org/10.5281/zenodo.8188053
+    Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J., Weller, R. A., Fitzgerald, D., & Galbraith, N. R. (2024). Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2021 - 2022, Data Report #17. School of Ocean and Earth Science and Technology (SOEST), Department of Oceanography, University of Hawai‘i at Mānoa, Honolulu, HI. https://doi.org/10.5281/zenodo.10652516.
 
 :Contact:
 
